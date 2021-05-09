@@ -1,7 +1,9 @@
 # get ubuntu image
 FROM ubuntu:18.04
-RUN apt-get update
-COPY . .
+RUN apt-get update && apt-get install gcc
+COPY . . 
+
+# TODO: setup a user and create a dir for them to run AMGeO in where they can't screw anything up
 
 # FROM continuumio/conda-ci-linux-64-python3.7
 FROM continuumio/miniconda3
