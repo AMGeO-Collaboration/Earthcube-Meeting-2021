@@ -1,0 +1,36 @@
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_utilities.py:91: RuntimeWarning: invalid value encountered in less
+  neg_tc = BT*np.cos(tc)*Bz < 0
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_prime.py:333: RuntimeWarning: divide by zero encountered in true_divide
+  grideavg = (gridenergyflux/1.6e-12)/gridnumflux #energy flux Joules->eV
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_prime.py:333: RuntimeWarning: invalid value encountered in true_divide
+  grideavg = (gridenergyflux/1.6e-12)/gridnumflux #energy flux Joules->eV
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_utilities.py:91: RuntimeWarning: invalid value encountered in less
+  neg_tc = BT*np.cos(tc)*Bz < 0
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_prime.py:333: RuntimeWarning: divide by zero encountered in true_divide
+  grideavg = (gridenergyflux/1.6e-12)/gridnumflux #energy flux Joules->eV
+/Users/willemmirkovich/AMGeO/AMGeO/src/ovationpyme/ovationpyme/ovation_prime.py:333: RuntimeWarning: invalid value encountered in true_divide
+  grideavg = (gridenergyflux/1.6e-12)/gridnumflux #energy flux Joules->eV
+/Users/willemmirkovich/AMGeO/AMGeO/AMGeO/observations/supermag.py:204: RuntimeWarning: invalid value encountered in greater
+  inhemi = self['lats'][0,:].flatten() > self.minlat
+/Users/willemmirkovich/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/nanfunctions.py:1116: RuntimeWarning: All-NaN slice encountered
+  overwrite_input=overwrite_input)
