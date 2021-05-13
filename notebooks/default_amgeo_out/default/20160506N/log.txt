@@ -179,3 +179,322 @@ Read 63 line
 [2021-05-12 16:36:47.315435] INFO: AMGeO.driver_default: Omni for 2016-05-06 12:30:00
 
 [2021-05-12 16:36:47.368988] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 11:46:08.542215] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 11:46:13.074511] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 11:46:13.074615] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 11:46:13.192890] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 11:46:13.297886] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 11:46:15.149820] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 11:46:15.162479] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 11:46:20.115559] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 11:46:20.115698] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 11:46:20.119458] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 11:46:20.119576] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 11:46:20.131153] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 11:46:29.623462] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 11:46:29.623659] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 11:46:29.623713] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 11:46:37.277462] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 11:46:37.278057] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 11:46:37.285594] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 11:46:37.287160] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2016-05-06 12:30:00...
+[2021-05-13 11:46:37.287249] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fec8ccedbd0>)
+[2021-05-13 11:46:37.350057] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-05-13 11:46:39.139696] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:40.896161] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.646489] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.769192] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.769306] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.769378] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.885706] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.885809] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.885879] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:42.996165] DEBUG: OvationPyme.ovation_prime: Zeroed 4248/7680 average energieswith numflux below 5.000000e+07
+[2021-05-13 11:46:42.996275] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-05-13 11:46:42.996327] DEBUG: OvationPyme.ovation_prime: Zeroed 5591/7680 average energies under .2 keV
+[2021-05-13 11:46:43.679862] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:51.855549] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fec8ccedbd0>)
+[2021-05-13 11:46:51.971236] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fec8ccedbd0>)
+[2021-05-13 11:46:52.097088] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fec8ccedbd0>)
+[2021-05-13 11:46:52.217805] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fec8ccedbd0>)
+[2021-05-13 11:46:57.156951] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-05-13 11:46:57.157093] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.157170] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.157244] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.287153] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.287265] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.287343] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.400881] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.400956] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.401021] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:57.513072] DEBUG: OvationPyme.ovation_prime: Zeroed 4248/7680 average energieswith numflux below 5.000000e+07
+[2021-05-13 11:46:57.513178] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-05-13 11:46:57.513226] DEBUG: OvationPyme.ovation_prime: Zeroed 5591/7680 average energies under .2 keV
+[2021-05-13 11:46:57.876559] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:46:59.814645] INFO: AMGeO.driver_default: Omni for 2016-05-06 12:30:00
+
+[2021-05-13 11:55:04.137859] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 11:55:08.707871] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 11:55:08.707971] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 11:55:08.785849] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 11:55:08.863263] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 11:55:10.734236] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 11:55:10.741932] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 11:55:15.741084] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 11:55:15.741220] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 11:55:15.743131] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 11:55:15.743198] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 11:55:15.752676] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 11:55:25.066881] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 11:55:25.067065] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 11:55:25.067122] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 11:55:31.014225] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 11:55:31.014844] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 11:55:31.022399] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 11:55:31.023842] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2016-05-06 12:30:00...
+[2021-05-13 11:55:31.023927] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fc19bf82150>)
+[2021-05-13 11:55:31.082282] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-05-13 11:55:32.870078] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:34.640616] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.402584] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.512741] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.512836] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.512900] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.622668] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.622748] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.622814] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:36.739678] DEBUG: OvationPyme.ovation_prime: Zeroed 4248/7680 average energieswith numflux below 5.000000e+07
+[2021-05-13 11:55:36.739799] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-05-13 11:55:36.739854] DEBUG: OvationPyme.ovation_prime: Zeroed 5591/7680 average energies under .2 keV
+[2021-05-13 11:55:37.420791] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:45.663021] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fc19bf82150>)
+[2021-05-13 11:55:45.771927] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fc19bf82150>)
+[2021-05-13 11:55:45.875226] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fc19bf82150>)
+[2021-05-13 11:55:45.979148] DEBUG: AMGeO.update.predict: (datetime.datetime(2016, 5, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fc19bf82150>)
+[2021-05-13 11:55:50.486024] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-05-13 11:55:50.486161] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.486224] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.486295] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.613625] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.613733] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.613806] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.726471] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.726540] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.726604] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:50.836265] DEBUG: OvationPyme.ovation_prime: Zeroed 4248/7680 average energieswith numflux below 5.000000e+07
+[2021-05-13 11:55:50.836366] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-05-13 11:55:50.836415] DEBUG: OvationPyme.ovation_prime: Zeroed 5591/7680 average energies under .2 keV
+[2021-05-13 11:55:51.213956] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2016-05-05 00:30:00-2016-05-08 00:30:00
+[2021-05-13 11:55:53.151083] INFO: AMGeO.driver_default: Omni for 2016-05-06 12:30:00
+
+[2021-05-13 11:55:53.186381] INFO: AMGeO.driver_default: Unable to create group (name already exists)
+[2021-05-13 13:54:27.687289] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 13:54:32.256924] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 13:54:32.257016] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 13:54:32.337197] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 13:54:32.413521] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 13:54:34.526771] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 13:54:34.534989] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 13:54:40.354132] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 13:54:40.354283] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 13:54:40.356029] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 13:54:40.356093] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 13:54:40.365342] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 13:54:50.432556] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 13:54:50.432775] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 13:54:50.432868] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 13:54:56.920510] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 13:54:56.921129] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 13:54:56.928540] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 13:54:56.930964] ERROR: AMGeO.driver_default: '02d'
+[2021-05-13 14:56:13.055297] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 14:56:16.650515] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 14:56:16.650609] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 14:56:16.728405] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 14:56:16.808413] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 14:56:18.260050] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 14:56:18.268051] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 14:56:23.136773] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 14:56:23.136895] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 14:56:23.138615] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 14:56:23.138677] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 14:56:23.147216] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 14:56:32.997857] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 14:56:32.998093] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 14:56:32.998170] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 14:56:40.140074] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 14:56:40.141374] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 14:56:40.149033] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 14:56:40.152383] ERROR: AMGeO.driver_default: '02d'
+[2021-05-13 14:56:40.174569] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 14:59:52.880603] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 14:59:57.606130] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 14:59:57.606239] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 14:59:57.682461] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 14:59:57.762391] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 14:59:59.599908] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 14:59:59.608470] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:00:04.740200] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:00:04.740370] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:00:04.742837] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:00:04.742929] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:00:04.758300] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:00:14.786151] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:00:14.786365] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:00:14.786427] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:00:21.994313] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:00:21.995054] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:00:22.002530] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:00:22.005261] ERROR: AMGeO.driver_default: tuple index out of range
+[2021-05-13 15:02:35.012310] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 15:02:40.039627] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 15:02:40.039742] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 15:02:40.117120] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:02:40.191555] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:02:42.082032] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 15:02:42.089836] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:02:46.839071] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:02:46.839214] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:02:46.841113] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:02:46.841184] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:02:46.851959] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:02:56.010854] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:02:56.011111] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:02:56.011218] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:03:01.634833] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:03:01.635510] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:03:01.642603] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:03:01.645189] ERROR: AMGeO.driver_default: tuple index out of range
+[2021-05-13 15:03:01.659137] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 15:04:44.656244] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 15:04:49.492408] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 15:04:49.492513] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 15:04:49.576264] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:04:49.660458] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:04:51.832927] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 15:04:51.843582] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:04:56.865707] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:04:56.865843] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:04:56.867806] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:04:56.867872] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:04:56.878411] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:05:06.433813] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:05:06.433978] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:05:06.434031] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:05:12.129859] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:05:12.130483] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:05:12.138280] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:05:12.140318] INFO: AMGeO.driver_default: 2016-05-06 12:30:00 already exists
+[2021-05-13 15:05:12.155737] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 15:08:37.193735] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 15:08:41.792446] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 15:08:41.792558] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 15:08:41.866525] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:08:41.939691] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:08:43.752082] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 15:08:43.760211] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:08:49.307393] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:08:49.307532] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:08:49.309442] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:08:49.309512] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:08:49.320129] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:08:58.692502] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:08:58.692761] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:08:58.692832] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:09:04.244033] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:09:04.244620] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:09:04.251713] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:09:04.253079] INFO: AMGeO.driver_default: Processing 2016-05-06 12:30:00
+[2021-05-13 15:09:04.253638] INFO: AMGeO.driver_default: 2016-05-06 12:30:00 already exists
+[2021-05-13 15:09:04.268072] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 15:14:00.205302] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 15:14:04.722578] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 15:14:04.722703] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 15:14:04.795321] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:14:04.870053] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:14:06.653502] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 15:14:06.662149] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:14:11.373162] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:14:11.373355] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:14:11.375057] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:14:11.375135] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:14:11.383712] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:14:20.658539] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:14:20.658975] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:14:20.659071] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:14:26.406955] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:14:26.407562] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:14:26.414668] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:14:26.415099] ERROR: AMGeO.driver_default: 'list' object cannot be interpreted as an integer
+[2021-05-13 15:14:26.427353] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 15:16:20.503264] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 15:16:25.043006] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 15:16:25.043136] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 15:16:25.115747] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:16:25.187957] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 15:16:26.962538] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 15:16:26.970988] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 15:16:31.621496] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 15:16:31.621701] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 15:16:31.623660] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:16:31.623723] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 15:16:31.632545] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 15:16:40.591267] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 15:16:40.591516] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 15:16:40.591625] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 15:16:46.310255] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 15:16:46.310838] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 15:16:46.318162] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 15:16:46.332463] INFO: AMGeO.driver_default: Processing 2016-05-06 12:30:00
+[2021-05-13 15:16:46.333288] INFO: AMGeO.driver_default: 2016-05-06 12:30:00 already exists
+[2021-05-13 15:16:46.352663] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
