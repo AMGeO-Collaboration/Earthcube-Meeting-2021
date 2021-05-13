@@ -498,3 +498,29 @@ Read 63 line
 [2021-05-13 15:16:46.332463] INFO: AMGeO.driver_default: Processing 2016-05-06 12:30:00
 [2021-05-13 15:16:46.333288] INFO: AMGeO.driver_default: 2016-05-06 12:30:00 already exists
 [2021-05-13 15:16:46.352663] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
+[2021-05-13 16:43:37.102248] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2016-05-06 00:00:00...
+[2021-05-13 16:43:42.303846] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-13 16:43:42.303966] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-13 16:43:42.385233] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 16:43:42.468001] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-13 16:43:44.279940] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-13 16:43:44.288489] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
+[2021-05-13 16:43:49.079130] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2016-05-06 00:00:00...
+[2021-05-13 16:43:49.079284] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-13 16:43:49.081404] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 16:43:49.081481] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20160506-supermag.txt
+[2021-05-13 16:43:49.092792] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-13 16:43:58.252832] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2016-05-06 00:00:00, hemisphere N...
+[2021-05-13 16:43:58.253044] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5
+[2021-05-13 16:43:58.253107] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20160506N.h5...
+[2021-05-13 16:44:03.998850] DEBUG: AMGeO.observations.superdarn: 86222/194326 line of sight observations were made negative because they were toward the radar
+[2021-05-13 16:44:03.999526] INFO: AMGeO.observations.superdarn: Read 194326 SuperDARN Grid records
+ spanning 20160506 00:02-20160506 23:58
+[2021-05-13 16:44:04.006601] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2016-5-6
+[2021-05-13 16:44:04.022808] INFO: AMGeO.driver_default: Processing 2016-05-06 12:30:00
+[2021-05-13 16:44:04.023628] INFO: AMGeO.driver_default: 2016-05-06 12:30:00 already exists
+[2021-05-13 16:44:04.040377] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./intermediate_amgeo_out/default/20130101N
