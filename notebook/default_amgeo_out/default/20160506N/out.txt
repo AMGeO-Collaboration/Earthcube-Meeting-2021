@@ -1,0 +1,4 @@
+(105408,)
+Created interval between 2016-05-05 and 2016-05-08, cadence 5min, start index 36000, end index 36864
+(44640,)
+Created interval between 2016-05-04 and 2016-05-08, cadence 1min, start index 5704, end index 10080

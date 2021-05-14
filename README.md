@@ -12,6 +12,10 @@ To run the docker image:
 docker run -dp 8888:8888 <name>
 ```
 
+TODO: notes on how to build the correct image and load it
+
+TODO: need password entry on jupyter notebook
+
 ## Notes TODO: Delete
 
 Notebook template
