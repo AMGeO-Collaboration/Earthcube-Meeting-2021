@@ -1,6 +1,0 @@
-(105408,)
-(105120,)
-Created interval between 2012-12-31 and 2013-01-03, cadence 5min, start index 105120, end index 576
-(44640,)
-(44640,)
-Created interval between 2012-12-30 and 2013-01-03, cadence 1min, start index 43144, end index 2880
