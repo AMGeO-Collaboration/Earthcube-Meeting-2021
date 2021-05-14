@@ -12,6 +12,12 @@ To run the docker image:
 docker run -dp 8888:8888 <name>
 ```
 
+# Earthcbue Docker instructions
+
+```bash
+docker pull ghcr.io/amgeo-collaboration/amgeo_notebook:test
+```
+
 TODO: notes on how to build the correct image and load it
 
 TODO: need password entry on jupyter notebook
