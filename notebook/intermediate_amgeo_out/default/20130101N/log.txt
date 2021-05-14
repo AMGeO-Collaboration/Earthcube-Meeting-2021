@@ -492,3 +492,73 @@ Read 63 line
 [2021-05-14 16:56:18.841483] INFO: AMGeO.driver_default: Processing 2013-01-01 05:01:00
 [2021-05-14 16:56:18.842105] INFO: AMGeO.driver_default: 2013-01-01 05:01:00 already exists
 [2021-05-14 16:56:18.860682] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./expert_amgeo_out/default/20140303N
+[2021-05-14 18:27:59.652916] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2013-01-01 00:01:00...
+[2021-05-14 18:28:08.948659] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-14 18:28:08.949238] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-14 18:28:09.060828] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-14 18:28:09.163179] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-14 18:28:12.319853] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-14 18:28:12.326139] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2013-01-01 00:01:00...
+[2021-05-14 18:28:12.326264] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-14 18:28:12.328943] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20130101-supermag.txt
+[2021-05-14 18:28:12.329012] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20130101-supermag.txt
+[2021-05-14 18:28:12.339126] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-14 18:28:24.031369] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2013-01-01 00:01:00, hemisphere N...
+[2021-05-14 18:28:24.031572] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130101N.h5
+[2021-05-14 18:28:24.031638] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130101N.h5...
+[2021-05-14 18:28:30.209907] DEBUG: AMGeO.observations.superdarn: 41278/99437 line of sight observations were made negative because they were toward the radar
+[2021-05-14 18:28:30.211509] INFO: AMGeO.observations.superdarn: Read 99437 SuperDARN Grid records
+ spanning 20130101 00:02-20130101 23:58
+[2021-05-14 18:28:30.215329] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2013-1-1
+[2021-05-14 18:28:30.233068] INFO: AMGeO.driver_default: Processing 2013-01-01 00:01:00
+[2021-05-14 18:28:30.234719] INFO: AMGeO.driver_default: 2013-01-01 00:01:00 already exists
+[2021-05-14 18:28:30.234910] INFO: AMGeO.driver_default: Processing 2013-01-01 01:01:00
+[2021-05-14 18:28:30.235454] INFO: AMGeO.driver_default: 2013-01-01 01:01:00 already exists
+[2021-05-14 18:28:30.235566] INFO: AMGeO.driver_default: Processing 2013-01-01 02:01:00
+[2021-05-14 18:28:30.236000] INFO: AMGeO.driver_default: 2013-01-01 02:01:00 already exists
+[2021-05-14 18:28:30.236091] INFO: AMGeO.driver_default: Processing 2013-01-01 03:01:00
+[2021-05-14 18:28:30.236535] INFO: AMGeO.driver_default: 2013-01-01 03:01:00 already exists
+[2021-05-14 18:28:30.236710] INFO: AMGeO.driver_default: Processing 2013-01-01 04:01:00
+[2021-05-14 18:28:30.237365] INFO: AMGeO.driver_default: 2013-01-01 04:01:00 already exists
+[2021-05-14 18:28:30.237545] INFO: AMGeO.driver_default: Processing 2013-01-01 05:01:00
+[2021-05-14 18:28:30.238067] INFO: AMGeO.driver_default: 2013-01-01 05:01:00 already exists
+[2021-05-14 18:28:30.257189] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./expert_amgeo_out/default/20140303N
+[2021-05-14 20:56:04.284898] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2013-01-01 00:01:00...
+[2021-05-14 20:56:13.365925] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-14 20:56:13.366913] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-14 20:56:13.480505] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-14 20:56:13.583741] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-14 20:56:16.956797] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-14 20:56:16.963638] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2013-01-01 00:01:00...
+[2021-05-14 20:56:16.963760] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-14 20:56:16.966451] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20130101-supermag.txt
+[2021-05-14 20:56:16.966522] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20130101-supermag.txt
+[2021-05-14 20:56:16.976346] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-14 20:56:29.400696] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2013-01-01 00:01:00, hemisphere N...
+[2021-05-14 20:56:29.400969] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130101N.h5
+[2021-05-14 20:56:29.401045] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130101N.h5...
+[2021-05-14 20:56:36.645951] DEBUG: AMGeO.observations.superdarn: 41278/99437 line of sight observations were made negative because they were toward the radar
+[2021-05-14 20:56:36.647980] INFO: AMGeO.observations.superdarn: Read 99437 SuperDARN Grid records
+ spanning 20130101 00:02-20130101 23:58
+[2021-05-14 20:56:36.651824] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2013-1-1
+[2021-05-14 20:56:36.667619] INFO: AMGeO.driver_default: Processing 2013-01-01 00:01:00
+[2021-05-14 20:56:36.669060] INFO: AMGeO.driver_default: 2013-01-01 00:01:00 already exists
+[2021-05-14 20:56:36.669164] INFO: AMGeO.driver_default: Processing 2013-01-01 01:01:00
+[2021-05-14 20:56:36.669843] INFO: AMGeO.driver_default: 2013-01-01 01:01:00 already exists
+[2021-05-14 20:56:36.669938] INFO: AMGeO.driver_default: Processing 2013-01-01 02:01:00
+[2021-05-14 20:56:36.670561] INFO: AMGeO.driver_default: 2013-01-01 02:01:00 already exists
+[2021-05-14 20:56:36.670685] INFO: AMGeO.driver_default: Processing 2013-01-01 03:01:00
+[2021-05-14 20:56:36.671436] INFO: AMGeO.driver_default: 2013-01-01 03:01:00 already exists
+[2021-05-14 20:56:36.671551] INFO: AMGeO.driver_default: Processing 2013-01-01 04:01:00
+[2021-05-14 20:56:36.672334] INFO: AMGeO.driver_default: 2013-01-01 04:01:00 already exists
+[2021-05-14 20:56:36.672509] INFO: AMGeO.driver_default: Processing 2013-01-01 05:01:00
+[2021-05-14 20:56:36.673199] INFO: AMGeO.driver_default: 2013-01-01 05:01:00 already exists
+[2021-05-14 20:56:36.697000] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./expert_amgeo_out/default/20140303N
