@@ -7,7 +7,7 @@ The notebook, and its associated data is located in the `notebook` dir
 # Docker instructions
 To get the docker image associated with this notebook, please enter the following command into docker
 ```bash
-docker pull ghcr.io/amgeo-collaboration/eartcube-2021:latest
+docker pull ghcr.io/amgeo-collaboration/earthcube-2021:latest
 ```
 
 To run the docker image:
