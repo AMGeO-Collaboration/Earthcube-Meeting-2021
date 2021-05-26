@@ -1,0 +1,21 @@
+(105120,)
+Created interval between 2014-03-02 and 2014-03-05, cadence 5min, start index 17280, end index 18144
+(44640,)
+Created interval between 2014-03-01 and 2014-03-05, cadence 1min, start index 1384, end index 5760
+(44640,)
+Created interval between 2014-03-02 and 2014-03-04, cadence 1min, start index 2160, end index 5038
+lamn,lamx = 0.000000,150.000000
+Initializing lat,lon,alt grid with following parameters:
+
+Epoch, Nvert = 2014.000000, 50.000000
+
+Lat min,max,npts = -90.000000,90.000000,151.000000
+
+Lon min,max,npts = -180.000000,180.000000,251.000000
+
+Alt min,max,npts = 1.000000,200.000000,3.000000
+
+Preparing interpolation tables...
+Transforming 248 points from lat,lon,alt to apex...
+Computing 356872 Apex Longitude values to Magnetic Local Time...
+

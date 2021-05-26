@@ -14,7 +14,7 @@ docker pull ghcr.io/amgeo-collaboration/earthcube-2021:latest
 
 To run the docker image:
 ```bash
-docker run -dp 8888:8888 earthcube-2021:latest
+docker run -dp 8888:8888 ghcr.io/amgeo-collaboration/earthcube-2021:latest
 ```
 
 Then, navigate to `localhost:8888` in your favorite browser, and enter `test` for the notebook password

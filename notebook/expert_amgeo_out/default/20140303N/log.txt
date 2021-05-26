@@ -482,3 +482,47 @@ Read 63 line
 [2021-05-15 22:08:28.551953] INFO: AMGeO.driver_default: 2014-03-03 12:50:00 already exists
 [2021-05-15 22:08:28.552040] INFO: AMGeO.driver_default: Processing 2014-03-03 12:55:00
 [2021-05-15 22:08:28.552582] INFO: AMGeO.driver_default: 2014-03-03 12:55:00 already exists
+[2021-05-26 20:50:27.036846] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2014-03-03 12:05:00...
+[2021-05-26 20:50:31.285431] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-05-26 20:50:31.285526] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-05-26 20:50:31.358460] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-26 20:50:31.432948] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-05-26 20:50:33.259947] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-05-26 20:50:33.265027] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2014-03-03 12:05:00...
+[2021-05-26 20:50:33.265225] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-05-26 20:50:33.268460] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20140303-supermag.txt
+[2021-05-26 20:50:33.268564] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20140303-supermag.txt
+[2021-05-26 20:50:33.279257] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+Expected 71 lines
+Read 63 line
+[2021-05-26 20:50:43.215517] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2014-03-03 12:05:00, hemisphere N...
+[2021-05-26 20:50:43.217146] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20140303N.h5
+[2021-05-26 20:50:43.217405] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20140303N.h5...
+[2021-05-26 20:50:50.882142] DEBUG: AMGeO.observations.superdarn: 156759/295431 line of sight observations were made negative because they were toward the radar
+[2021-05-26 20:50:50.882340] INFO: AMGeO.observations.superdarn: Read 295431 SuperDARN Grid records
+ spanning 20140303 00:02-20140303 23:58
+[2021-05-26 20:50:50.897099] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+ hemisphere N,
+ date 2014-3-3
+[2021-05-26 20:50:50.914695] INFO: AMGeO.driver_default: Processing 2014-03-03 12:05:00
+[2021-05-26 20:50:50.917019] INFO: AMGeO.driver_default: 2014-03-03 12:05:00 already exists
+[2021-05-26 20:50:50.917177] INFO: AMGeO.driver_default: Processing 2014-03-03 12:10:00
+[2021-05-26 20:50:50.917769] INFO: AMGeO.driver_default: 2014-03-03 12:10:00 already exists
+[2021-05-26 20:50:50.917941] INFO: AMGeO.driver_default: Processing 2014-03-03 12:15:00
+[2021-05-26 20:50:50.918794] INFO: AMGeO.driver_default: 2014-03-03 12:15:00 already exists
+[2021-05-26 20:50:50.918955] INFO: AMGeO.driver_default: Processing 2014-03-03 12:20:00
+[2021-05-26 20:50:50.919675] INFO: AMGeO.driver_default: 2014-03-03 12:20:00 already exists
+[2021-05-26 20:50:50.919864] INFO: AMGeO.driver_default: Processing 2014-03-03 12:25:00
+[2021-05-26 20:50:50.920551] INFO: AMGeO.driver_default: 2014-03-03 12:25:00 already exists
+[2021-05-26 20:50:50.920753] INFO: AMGeO.driver_default: Processing 2014-03-03 12:30:00
+[2021-05-26 20:50:50.921449] INFO: AMGeO.driver_default: 2014-03-03 12:30:00 already exists
+[2021-05-26 20:50:50.921699] INFO: AMGeO.driver_default: Processing 2014-03-03 12:35:00
+[2021-05-26 20:50:50.922278] INFO: AMGeO.driver_default: 2014-03-03 12:35:00 already exists
+[2021-05-26 20:50:50.922470] INFO: AMGeO.driver_default: Processing 2014-03-03 12:40:00
+[2021-05-26 20:50:50.923127] INFO: AMGeO.driver_default: 2014-03-03 12:40:00 already exists
+[2021-05-26 20:50:50.923408] INFO: AMGeO.driver_default: Processing 2014-03-03 12:45:00
+[2021-05-26 20:50:50.924036] INFO: AMGeO.driver_default: 2014-03-03 12:45:00 already exists
+[2021-05-26 20:50:50.924210] INFO: AMGeO.driver_default: Processing 2014-03-03 12:50:00
+[2021-05-26 20:50:50.924861] INFO: AMGeO.driver_default: 2014-03-03 12:50:00 already exists
+[2021-05-26 20:50:50.924941] INFO: AMGeO.driver_default: Processing 2014-03-03 12:55:00
+[2021-05-26 20:50:50.925445] INFO: AMGeO.driver_default: 2014-03-03 12:55:00 already exists
